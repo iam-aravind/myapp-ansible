@@ -1,0 +1,4 @@
+- hosts: all
+  tasks:
+    - name: Remote start jenkins job.
+      shell: "curl -u admin:115a5daf9b225e466ad9be4095e13f5783 http://15.206.67.189:8080/job/playbook/build?token=token"
